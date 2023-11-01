@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/daniel-ussa-566262280',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -22,45 +22,55 @@ const config = {
     dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
-    telegram: '',
+    telegram: 'https://t.me/HighTopper',
     website: '',
     phone: '',
     email: 'hightop0924.dev.hk@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/hightop0924/hightop0924/blob/main/Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'C/C++',
+    'Python',
+    'Rust',
+    'Solidity',
+    'Move',
+    'Ethereum/BSC/Solana/Cosmos/Pokadot/Aptos/Sui',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'MySQL/PostgreSQL/Neo4J/Redis',
+    'Github/Docker/Kubernetes/AWS',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'OPTIFINANCE',
+      position: 'Rust/Move & Solidity Engineer',
+      from: 'August 2021',
+      to: 'October 2023',
+      companyLink: 'https://www.optifinance.net',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
+      company: 'IDEASOFT',
+      position: 'Rust & Solidity Developer',
+      from: 'March 2018',
       to: 'August 2021',
-      companyLink: 'https://example.com',
+      companyLink: 'https://ideasoft.io',
+    },
+    {
+      company: 'EXPERTIME OPEN',
+      position: 'Rust/C++ Backend Developer',
+      from: 'March 2015',
+      to: 'March 2018',
+      companyLink: 'https://www.expertime-open.com',
+    },
+    {
+      company: 'ZHUHAI AIPUJING SOFTWARE CO.',
+      position: 'C++/Python Developer',
+      from: 'Jan 2011',
+      to: 'March 2015',
+      companyLink: 'https://www.apjcorp.com',
     },
   ],
   /* certifications: [
@@ -73,42 +83,71 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Lingnan University',
+      degree: 'Bachelor of Degree in Computer Science',
+      from: '2008',
+      to: '2011',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Dex on Bahamas Chain',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Decentralized Exchange on Bahamas Chain',
+      imageUrl: '',
+      link: 'https://swap.bahamaschain.io',
     },
     {
-      title: 'Project Name',
+      title: 'Block Explorer on Bahamas',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Chain Explorer on Bahamas',
+      imageUrl: '',
+      link: 'https://explorer.bahamaschain.io',
+    },
+    {
+      title: 'Token Bridge on Bahamas',
+      description:
+        'Mint/Burn and Deposit Token Bridge on Bahamas',
+      imageUrl: '',
+      link: 'https://bridge.bahamaschain.io',
+    },
+    {
+      title: 'Clutchy NFT Marketplace',
+      description:
+        'NFT Market Place on Sui',
+      imageUrl: '',
+      link: 'https://clutchy.io/marketplace',
+    },
+    {
+      title: 'OFT Token LayerZero Bridge ',
+      description:
+        'SquidGrow Token, OFT Token Bridge using LayerZero.',
+      imageUrl: '',
+      link: 'https://www.bridge.squidgrow.wtf/',
+    },
+    {
+      title: 'ONFT Token Mint/Bridge based on LayerZero',
+      description:
+        'ONFT Token Bridge using LayerZero.',
+      imageUrl: '',
+      link: 'https://omniart.app',
+    },
+    {
+      title: 'Flash Launchpad',
+      description:
+        'Flash Launchpad like Pinksale',
+      imageUrl: '',
+      link: 'https://flash-launch.com',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'Hightop', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'Hightop', // to hide blog section, keep it empty
+  //   limit: 2, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
