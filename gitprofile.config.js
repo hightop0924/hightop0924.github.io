@@ -123,14 +123,14 @@ const config = {
     {
       title: 'OFT Token LayerZero Bridge ',
       description:
-        'SquidGrow Token, OFT Token Bridge using LayerZero.',
+        'SquidGrow Token, OFT Token Bridge using LayerZero',
       imageUrl: '',
       link: 'https://www.bridge.squidgrow.wtf/',
     },
     {
       title: 'ONFT Token Mint/Bridge based on LayerZero',
       description:
-        'ONFT Token Bridge using LayerZero.',
+        'ONFT Token Bridge using LayerZero',
       imageUrl: '',
       link: 'https://omniart.app',
     },
@@ -140,6 +140,13 @@ const config = {
         'Flash Launchpad like Pinksale',
       imageUrl: '',
       link: 'https://flash-launch.com',
+    },
+    {
+      title: 'Welcome Chat Server',
+      description:
+        'Large-scale Chatting Service in Rust, which is competive to Telegram',
+      imageUrl: '',
+      link: 'https://142.132.218.205:3006',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
